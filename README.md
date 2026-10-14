@@ -7,9 +7,11 @@ process, JavaScript dependencies or custom Notion API implementation.
 
 ## Status
 
-Version 0.1.0 is an unpublished candidate. Validation/packing, signed publication,
-browser sign-in and live Agent acceptance are separate; the latter steps are
-not claimed complete.
+Version 0.1.0 is published to the tester catalogue at index 5. Validation,
+source/maintainer approval, genuine CI attestation, signing and independent public
+delivery pass. Browser sign-in and live Agent acceptance are separate and pending.
+See [verification](VERIFICATION.md). Tag `v0.1.0` remains pinned to source
+`401f784ec986c4bf183594549dd75eedb057cb9d`; later documentation does not move it.
 
 ## Authentication
 
@@ -40,7 +42,7 @@ See `assets/README.md` for original artwork provenance and separate brand terms.
 Commit and tag reviewed source, then `grain-ext submit` using the actual full
 source commit, tag and registry checkout. Follow the existing source-review,
 attestation, signing and complete-catalogue publication route. This candidate
-has no approval to reuse the GitHub-only tester exception.
+has its own exact tester approval; it does not inherit or expand GitHub's approval.
 
 ## Bounded live checkpoint
 
