@@ -1,10 +1,10 @@
 # Notion for Grain
 
-Artwork candidate **0.1.1** separates the 512×512 listing icon from three wide
-gallery images. URL, OAuth and tool behavior are unchanged. Source validation and
-packaging are local checks; this exact candidate still needs registry review,
-signing and public activation. Existing published evidence below refers to 0.1.0.
-See [artwork sources](assets/README.md).
+Candidate **0.1.2** corrects store copy that implied every Agent action opens an
+approval dialog and updates the author instructions. URL, OAuth, tool behavior
+and the 512×512 icon/three wide gallery images are unchanged. This candidate still
+needs its own exact source approval, signing and public activation through the
+maintained registry workflow. See [artwork sources](assets/README.md).
 
 A Grain-authored definition and store listing for [Notion's official hosted MCP
 server](https://developers.notion.com/guides/mcp/get-started-with-mcp) at
@@ -13,11 +13,12 @@ process, JavaScript dependencies or custom Notion API implementation.
 
 ## Status
 
-Version 0.1.0 is published to the tester catalogue at index 5. Validation,
-source/maintainer approval, genuine CI attestation, signing and independent public
-delivery pass. Browser sign-in and live Agent acceptance are separate and pending.
-See [verification](VERIFICATION.md). Tag `v0.1.0` remains pinned to source
-`401f784ec986c4bf183594549dd75eedb057cb9d`; later documentation does not move it.
+Version 0.1.1 is published to the tester catalogue at index 7, registry commit
+`15b87cf75c36f5d330470196094738001a6b9426`. The user has also confirmed live
+sign-in and representative search/read/create/edit actions in Grain. This does
+not certify every Notion tool. See [verification](VERIFICATION.md) for historical
+publication evidence and the new candidate's status. Existing release tags stay
+immutable; documentation changes do not move them.
 
 ## Authentication
 
@@ -41,14 +42,17 @@ grain-ext doctor
 grain-ext pack
 ```
 
-The output is `com.grain.notion-0.1.0.mcp.json`. `DESCRIPTION.md` is store copy,
-README is author documentation and `media/cover.webp` identifies the integration.
+The output is `com.grain.notion-0.1.2.mcp.json`. `DESCRIPTION.md` is store copy,
+README is author documentation, `media/icon.png` is the square listing icon and
+`media/cover.webp` is the first wide preview.
 See `assets/README.md` for original artwork provenance and separate brand terms.
 
-Commit and tag reviewed source, then `grain-ext submit` using the actual full
-source commit, tag and registry checkout. Follow the existing source-review,
-attestation, signing and complete-catalogue publication route. This candidate
-has its own exact tester approval; it does not inherit or expand GitHub's approval.
+Commit and tag source, then `grain-ext submit --update-from 0.1.1` using the actual
+full source commit, tag and registry checkout. Push the submission branch and use
+`grain-ext pr` or a manual draft PR. Maintainers follow the registry's
+[publication runbook](https://github.com/Punit-Dethe/Grain-Extention/blob/main/PUBLISHING.md)
+for exact review, isolated preparation/attestation, local signing and activation.
+This candidate does not inherit approval from previous Notion or GitHub versions.
 
 ## Bounded live checkpoint
 

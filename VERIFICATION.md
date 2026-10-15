@@ -1,4 +1,18 @@
-# Tester publication — 14 October 2026
+# Notion publication evidence
+
+## Candidate 0.1.2 — 16 October 2026
+
+Corrects the description's obsolete per-action approval wording and the author
+instructions. Service URL, OAuth declaration, tool behavior and artwork stay
+unchanged. Packaging/source review, new per-release approval, signing and public
+activation must be recorded separately; candidate preparation is not publication.
+
+The preceding 0.1.1 artwork release is live in index 7 at registry commit
+`15b87cf75c36f5d330470196094738001a6b9426`. The user subsequently confirmed live
+sign-in and representative Notion reads/creates/edits in Grain. Earlier pending
+rows below describe the original checkpoint, not the current live-account status.
+
+## Historical tester publication — 14 October 2026
 
 Notion 0.1.0 uses only `https://mcp.notion.com/mcp` and OAuth through Grain's
 shared SDK. No credentials, native worker, local server or special runtime branch.

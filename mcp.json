@@ -3,7 +3,7 @@
   "id": "com.grain.notion",
   "name": "Notion",
   "description": "Search, read and organize your pages and databases with Notion's official hosted tools.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "grainApi": "^1.0",
   "transport": {
     "type": "streamable-http",
