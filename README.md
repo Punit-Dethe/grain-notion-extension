@@ -1,5 +1,11 @@
 # Notion for Grain
 
+Artwork candidate **0.1.1** separates the 512×512 listing icon from three wide
+gallery images. URL, OAuth and tool behavior are unchanged. Source validation and
+packaging are local checks; this exact candidate still needs registry review,
+signing and public activation. Existing published evidence below refers to 0.1.0.
+See [artwork sources](assets/README.md).
+
 A Grain-authored definition and store listing for [Notion's official hosted MCP
 server](https://developers.notion.com/guides/mcp/get-started-with-mcp) at
 `https://mcp.notion.com/mcp`. Notion operates the tools. No worker, local MCP
